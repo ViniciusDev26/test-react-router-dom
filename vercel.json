@@ -1,3 +1,3 @@
 {
-  "rewrites": [{ "source": "/student/*", "destination": "/" }]
+  "rewrites": [{ "source": "/student/:id", "destination": "/student/:id" }]
 }

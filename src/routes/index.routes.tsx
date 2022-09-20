@@ -12,6 +12,7 @@ export const Routes = () => {
       <Router>
         <Route path="/" element={<App />} />
         <Route path="/student/:id" element={<Details />}/>
+        <Route path="/protected/:id" element={<Details />}/>
       </Router>
     </BrowserRouter>
   )
