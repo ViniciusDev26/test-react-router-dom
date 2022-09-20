@@ -13,6 +13,7 @@ export const Routes = () => {
         <Route path="/" element={<App />} />
         <Route path="/student/:id" element={<Details />}/>
         <Route path="/protected/:id" element={<Details />}/>
+        <Route path="*" element={<App />}/>
       </Router>
     </BrowserRouter>
   )
